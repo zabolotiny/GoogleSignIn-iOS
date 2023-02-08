@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A3D80D9A26FA4EFF0050C28E /* GoogleSignIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleSignIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D80D9A26FA4EFF0050C28E /* GoogleSignIn_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleSignIn_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3D80D9E26FA4EFF0050C28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D80DAB26FA4F4E0050C28E /* GoogleSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleSignIn.h; sourceTree = "<group>"; };
 		A3D80DAC26FA4F4E0050C28E /* GIDGoogleUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIDGoogleUser.h; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		A3D80D9B26FA4EFF0050C28E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3D80D9A26FA4EFF0050C28E /* GoogleSignIn.framework */,
+				A3D80D9A26FA4EFF0050C28E /* GoogleSignIn_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +100,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A3D80D9926FA4EFF0050C28E /* GoogleSignIn */ = {
+		A3D80D9926FA4EFF0050C28E /* GoogleSignIn-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3D80DA226FA4EFF0050C28E /* Build configuration list for PBXNativeTarget "GoogleSignIn" */;
+			buildConfigurationList = A3D80DA226FA4EFF0050C28E /* Build configuration list for PBXNativeTarget "GoogleSignIn-iOS" */;
 			buildPhases = (
 				A3D80D9526FA4EFF0050C28E /* Headers */,
 				A3D80D9626FA4EFF0050C28E /* Sources */,
@@ -113,12 +113,12 @@
 			);
 			dependencies = (
 			);
-			name = GoogleSignIn;
+			name = "GoogleSignIn-iOS";
 			packageProductDependencies = (
 				A3D80DA726FA4F2D0050C28E /* GoogleSignIn */,
 			);
 			productName = GoogleSignIn;
-			productReference = A3D80D9A26FA4EFF0050C28E /* GoogleSignIn.framework */;
+			productReference = A3D80D9A26FA4EFF0050C28E /* GoogleSignIn_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -134,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A3D80D9426FA4EFF0050C28E /* Build configuration list for PBXProject "GoogleSignIn" */;
+			buildConfigurationList = A3D80D9426FA4EFF0050C28E /* Build configuration list for PBXProject "GoogleSignIn-iOS" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +150,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3D80D9926FA4EFF0050C28E /* GoogleSignIn */,
+				A3D80D9926FA4EFF0050C28E /* GoogleSignIn-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -347,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A3D80D9426FA4EFF0050C28E /* Build configuration list for PBXProject "GoogleSignIn" */ = {
+		A3D80D9426FA4EFF0050C28E /* Build configuration list for PBXProject "GoogleSignIn-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D80DA026FA4EFF0050C28E /* Debug */,
@@ -356,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3D80DA226FA4EFF0050C28E /* Build configuration list for PBXNativeTarget "GoogleSignIn" */ = {
+		A3D80DA226FA4EFF0050C28E /* Build configuration list for PBXNativeTarget "GoogleSignIn-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A3D80DA326FA4EFF0050C28E /* Debug */,

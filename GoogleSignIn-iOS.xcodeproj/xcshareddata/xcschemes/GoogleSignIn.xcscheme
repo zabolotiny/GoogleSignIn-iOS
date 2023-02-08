@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A3D80D9926FA4EFF0050C28E"
-               BuildableName = "GoogleSignIn.framework"
-               BlueprintName = "GoogleSignIn"
-               ReferencedContainer = "container:GoogleSignIn.xcodeproj">
+               BuildableName = "GoogleSignIn_iOS.framework"
+               BlueprintName = "GoogleSignIn-iOS"
+               ReferencedContainer = "container:GoogleSignIn-iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A3D80D9926FA4EFF0050C28E"
-            BuildableName = "GoogleSignIn.framework"
-            BlueprintName = "GoogleSignIn"
-            ReferencedContainer = "container:GoogleSignIn.xcodeproj">
+            BuildableName = "GoogleSignIn_iOS.framework"
+            BlueprintName = "GoogleSignIn-iOS"
+            ReferencedContainer = "container:GoogleSignIn-iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
